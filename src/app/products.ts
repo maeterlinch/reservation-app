@@ -27,7 +27,7 @@ export const products = [
     coverImage: './assets/img/phone-cover.jpg',
     name: 'Phone Standard',
     price: 299,
-    description: '',
+    description: 'A Standard phone',
     heding1: 'サンプルテキスト１',
     heding2: 'サンプルテキスト２',
     heding3: 'サンプルテキスト３',
