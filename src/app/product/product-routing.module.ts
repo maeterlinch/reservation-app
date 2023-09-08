@@ -4,6 +4,7 @@ import { ProdcutDetailComponent } from './prodcut-detail/prodcut-detail.componen
 import { ProdcutListComponent } from './prodcut-listings/prodcut-listings.component';
 import { CommonModule } from '@angular/common';
 import { ProductComponent } from './product.component';
+import { ProductService } from './shared/product.service';
 
 const routes: Routes = [
   { 
@@ -28,7 +29,9 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     CommonModule
   ],
-  providers: [],
+  providers: [
+    ProductService
+  ],
   bootstrap: []
 })
 export class ProdcutRoutingModule { }
