@@ -11,9 +11,9 @@ mongoose.connect(config.DB_URI, {
     useUnifiedTopology: true
 }).then(
     () => {
-        if(process.env.NODE_ENV !== 'production') {
+        if(process.env.NODE_ENV === 'production') {
             const sampleDb = new SampleDb()
-//             sampleDb.initDb()
+             sampleDb.initDb()
         }
     }
 )
