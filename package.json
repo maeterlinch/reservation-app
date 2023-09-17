@@ -10,8 +10,7 @@
     "start": "npm run start --prefix server",
     "start-dev": "ng serve --proxy-config proxy.conf.json",
     "build": "ng build --configuration production",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "watch": "ng build --watch --configuration development"
   },
   "private": true,
   "dependencies": {
